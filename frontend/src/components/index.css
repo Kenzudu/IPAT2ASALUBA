@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin:30px;
+}
+.item-form {
+    background-color: #169481;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Four columns, responsive */
+    gap: 1rem; /* Gap between columns */
+    max-width: auto; /* Adjust max-width as needed */
+    padding: 100px;
+}   
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box; /* Apply box-sizing: border-box; to include padding in width calculation */
+    border: 1px solid #9e5353; /* Example border styling */
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    align-self: start;
+}
